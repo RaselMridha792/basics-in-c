@@ -1,9 +1,10 @@
 #include<stdio.h>
 
 int main(){
-      printf("Rasel Mridha\t");
-      int x = 4;
-      int y = 3;
-      printf("%d", x%y);
+      // printf("Rasel Mridha\t");
+      char x[100] = "rasel mridha";
+      char y[] = "rasel mridha";
+      strcat(x , y);
+      printf("%s", x);
       return 0;
 }
